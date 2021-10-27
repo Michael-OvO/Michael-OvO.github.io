@@ -5,7 +5,7 @@ date: 2021-10-27
 slug: CF384A
 image: cf384a.jpg
 categories:
-    -C++题解
+    - C++题解
 ---
 
 # CF384A

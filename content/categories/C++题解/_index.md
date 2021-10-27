@@ -4,6 +4,6 @@ description: "收录了本人发布的所有题解"
 slug: "C++题解"
 image: "c++.jpg"
 style:
-    background: "##13c2c2"
+    background: "#13c2c2"
     color: "#fff"
 ---
