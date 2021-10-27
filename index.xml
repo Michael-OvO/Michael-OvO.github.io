@@ -103,7 +103,146 @@ C.C.C
 &lt;span class="p">}&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>当然，还存在有更优的解，这里因为本人能力有限，就不进行列举了。&lt;/p>
 &lt;p>&lt;del>（数据这么小做别的题它不香吗，干嘛非要优化）&lt;/del>&lt;/p>
-&lt;p>码字不易，求点赞&lt;/p></description></item><item><title>rich content</title><link>https://michael-ovo.github.io/p/rich_content/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/rich_content/</guid><description>&lt;img src="https://michael-ovo.github.io/p/rich_content/rich_content.png" alt="Featured image of post rich content" />&lt;p>Hugo ships with several &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes" target="_blank" rel="noopener"
+&lt;p>码字不易，求点赞&lt;/p></description></item><item><title>Chemistry Midterm Notes</title><link>https://michael-ovo.github.io/p/notes/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/notes/</guid><description>&lt;img src="https://michael-ovo.github.io/p/notes/head.jpg" alt="Featured image of post Chemistry Midterm Notes" />&lt;h1 id="midterm-study-guide-2021-2022-school-year">Midterm Study Guide (2021-2022 School Year)&lt;/h1>
+&lt;h2 id="what--is-chemistry">What is chemistry&lt;/h2>
+&lt;p>the study of the properties and behavior of matter&lt;/p>
+&lt;h2 id="what-is-matter">What is matter&lt;/h2>
+&lt;p>matter is any substance that has mass and takes up space by having volume.&lt;/p>
+&lt;h2 id="chemical-vs-physical-property">Chemical vs. Physical Property&lt;/h2>
+&lt;p>&lt;figure
+>
+&lt;a href="https://th.bing.com/th/id/OIP.ILn8pmLP_5T2S8sJHqqdhQHaEc?pid=ImgDet&amp;amp;rs=1" >
+&lt;img src="https://th.bing.com/th/id/OIP.ILn8pmLP_5T2S8sJHqqdhQHaEc?pid=ImgDet&amp;amp;rs=1"
+loading="lazy"
+alt="Table of Physical Property vs. Chemical Property">
+&lt;/a>
+&lt;figcaption>Table of Physical Property vs. Chemical Property&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Physical Properties:&lt;/p>
+&lt;ul>
+&lt;li>Examples: Boiling point, Density, Mass, and Volume&lt;/li>
+&lt;/ul>
+&lt;p>Chemical Properties:&lt;/p>
+&lt;ul>
+&lt;li>Examples: Flammability, Corrosiveness, or Reactivity with acids&lt;/li>
+&lt;/ul>
+&lt;h2 id="chemical-vs-physical-change">Chemical vs. Physical Change&lt;/h2>
+&lt;h3 id="chemcial-change">Chemcial Change&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>not easily reversed&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>new products formed&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>reactants used up&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>often heat/light/sound/fizzing occurs&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>electricity maye formed&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>precipitate may form&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="physical-change">Physical Change&lt;/h3>
+&lt;ul>
+&lt;li>easily reversed&lt;/li>
+&lt;li>no new sustance created&lt;/li>
+&lt;li>often just a state change&lt;/li>
+&lt;/ul>
+&lt;h2 id="pure-sustance-vs-mixture">Pure Sustance vs. Mixture&lt;/h2>
+&lt;p>There are two classfication under matter: mixture and substance.&lt;/p>
+&lt;blockquote>
+&lt;p>Mixture: a combination of more than one substance&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Substance: compound/element&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 212;
+flex-basis: 510px"
+>
+&lt;a href="https://michael-ovo.github.io/p/notes/structure.png" data-size="1245x585">
+&lt;img src="https://michael-ovo.github.io/p/notes/structure.png"
+width="1245"
+height="585"
+srcset="https://michael-ovo.github.io/p/notes/structure_hu6753fe0b457c2a7ee53bcf536065f885_42528_480x0_resize_box_3.png 480w, https://michael-ovo.github.io/p/notes/structure_hu6753fe0b457c2a7ee53bcf536065f885_42528_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h2 id="homogenous-mixture-vs-heterogenous-mixture">Homogenous Mixture vs. Heterogenous Mixture&lt;/h2>
+&lt;p>Homogenous: a mixture of two or more substances that are not soluble with each other, like sand and water&lt;/p>
+&lt;p>Heterogenous: one that is mixed/dissolved together, like saltwater&lt;/p>
+&lt;h2 id="three-states-of-matter">Three States of Matter&lt;/h2>
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 342;
+flex-basis: 821px"
+>
+&lt;a href="https://michael-ovo.github.io/p/notes/som.png" data-size="828x242">
+&lt;img src="https://michael-ovo.github.io/p/notes/som.png"
+width="828"
+height="242"
+srcset="https://michael-ovo.github.io/p/notes/som_hueabf4afc0d40dc2f54d5ccad54451ef0_286526_480x0_resize_box_3.png 480w, https://michael-ovo.github.io/p/notes/som_hueabf4afc0d40dc2f54d5ccad54451ef0_286526_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h2 id="intensive-property--extensive-property">Intensive Property &amp;amp; Extensive Property&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;blockquote>
+&lt;p>Intensive Property: a property that is a system of physical properties that does not depend on the size or amount of the system&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Examples: melting point, boiling point, etc.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Extensive Property: a property that totally depends on the size or amount of the material (varies with a change of volume/amount)&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Examples: weight, mass, volume, etc.&lt;/li>
+&lt;/ul>
+&lt;h2 id="unit--conversion">Unit Conversion&lt;/h2>
+&lt;p>skip&lt;/p>
+&lt;h2 id="desity">Desity&lt;/h2>
+&lt;p>Density = Mass / Volume&lt;/p>
+&lt;p>$$d=\frac mv$$&lt;/p>
+&lt;h2 id="atom">Atom&lt;/h2>
+&lt;p>Atom: the smallest particle of a chemical element that can exist&lt;/p>
+&lt;h2 id="molecular-compound--ionic-compound">Molecular Compound &amp;amp;&amp;amp; Ionic Compound&lt;/h2>
+&lt;p>Molecular Compound: is formed by the reaction of two or more nonmetals
+Ionic Compounds: formed by the reaction of a metal with a non-metal&lt;/p>
+&lt;h2 id="naming">Naming&lt;/h2>
+&lt;p>Naming Ionic Compounds: Find the charge of the cation and make it equal to the anion charge (the roman numerals) and add the suffix -ide to the end of the 2nd element&lt;/p>
+&lt;p>$ Cu_2O$→Copper(1)Oxide&lt;/p>
+&lt;h2 id="terms">Terms&lt;/h2>
+&lt;h3 id="ions">Ions&lt;/h3>
+&lt;p>Cations: positively charged ions formed from neutral atoms (metal) (Left side on PT)&lt;/p>
+&lt;ul>
+&lt;li>Formed when an electron is lost&lt;/li>
+&lt;/ul>
+&lt;p>Anions: are the negatively charged ions formed from neutral atoms (nonmetal) (Right Side on PT)&lt;/p>
+&lt;ul>
+&lt;li>Formed when an electron is gained&lt;/li>
+&lt;/ul>
+&lt;h3 id="groups-and-periods">Groups and Periods&lt;/h3>
+&lt;p>Groups: *the vertical columns *(down) the table
+Periods: the horizontal rows (across) the periodic table&lt;/p>
+&lt;h3 id="specific-names">Specific names&lt;/h3>
+&lt;p>Metals: located on the left side of the periodic table
+Non-Metals: located on the right side of the periodic table (plus hydrogen)
+Metalloids: located along the step formation on the right side of the periodic tableAlkali Metals: located along group one
+Alkaline Earth Metals: located along group two
+Halogens: located along group 17
+Noble Gases: located along group 18 (the most stable elements and the least likely to react in a reaction)&lt;/p></description></item><item><title>rich content</title><link>https://michael-ovo.github.io/p/rich_content/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/rich_content/</guid><description>&lt;img src="https://michael-ovo.github.io/p/rich_content/rich_content.png" alt="Featured image of post rich content" />&lt;p>Hugo ships with several &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes" target="_blank" rel="noopener"
 >Built-in Shortcodes&lt;/a> for rich content, along with a &lt;a class="link" href="https://gohugo.io/about/hugo-and-gdpr/" target="_blank" rel="noopener"
 >Privacy Config&lt;/a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p>
 &lt;hr>
