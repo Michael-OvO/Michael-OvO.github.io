@@ -6,6 +6,8 @@ slug: cf899b
 image: cf899b.jpg
 categories:
     - C++题解
+tags:
+    - 模拟
 ---
 
 # CF899B Months and Years

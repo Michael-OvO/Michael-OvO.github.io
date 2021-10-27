@@ -6,6 +6,8 @@ slug: CF384A
 image: cf384a.jpg
 categories:
     - C++题解
+tags:
+    - 模拟
 ---
 
 # CF384A
