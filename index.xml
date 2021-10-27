@@ -1,41 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Michael's blog</title><link>https://michael-ovo.github.io/</link><description>Recent content on Michael's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://michael-ovo.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>CF384A</title><link>https://michael-ovo.github.io/p/cf384a/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/cf384a/</guid><description>&lt;img src="https://michael-ovo.github.io/cf384a.jpg" alt="Featured image of post CF384A" />&lt;h1 id="cf899b-months-and-years">CF899B Months and Years&lt;/h1>
-&lt;p>&lt;a class="link" href="https://codeforces.com/problemset/problem/899/B" target="_blank" rel="noopener"
->原题传送门&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/CF899B" target="_blank" rel="noopener"
->洛谷传送门&lt;/a>&lt;/p>
-&lt;p>这可能是目前最暴力的一篇题解了。。&lt;/p>
-&lt;p>题目其实很简单，给出几个连续月份的天数，判断是否合法&lt;/p>
-&lt;p>&lt;del>好端端的一道模拟题就这么被打表暴力过了&lt;/del>&lt;/p>
-&lt;p>不过确实，与其说写一堆复杂的判断和模拟，打表所需的代码量少之又少。&lt;/p>
-&lt;h2 id="思路">思路&lt;/h2>
-&lt;p>首先自己创建好连续几年（需要包含平年和闰年的数据，因为题目中的月份数最多会达到 $24$）每个月天数的数据。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="s">&amp;#34;31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 29 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 &amp;#34;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>随后，我们只需要原封不动的读入字符串，再用 &lt;code>find()&lt;/code> 函数直接判断是否为我们提前创建好的字符串中的一个子串即可。&lt;/p>
-&lt;p>其实题目第一行读入的整数并没啥用。&lt;/p>
-&lt;p>第二行直接全行读入字符串。&lt;/p>
-&lt;p>完全不需要做任何的处理，直接比对，返回输出。&lt;/p>
-&lt;p>唯一需要注意的是，使用 &lt;code>getline()&lt;/code> 的时候需要格外小心数据输入是否有存在回车的情况，需要加上 &lt;code>cin.ignore()&lt;/code>。&lt;/p>
-&lt;h2 id="前方高能极其暴力代码">前方高能，极其暴力代码&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="cp">#include&lt;/span>&lt;span class="cpf">&amp;lt;bits/stdc++.h&amp;gt;&lt;/span>&lt;span class="cp">
-&lt;/span>&lt;span class="cp">&lt;/span>
-&lt;span class="k">using&lt;/span> &lt;span class="k">namespace&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;span class="n">string&lt;/span> &lt;span class="n">b&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;span class="p">{&lt;/span>
-&lt;span class="n">ios&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">sync_with_stdio&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;span class="n">cin&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">tie&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;span class="kt">int&lt;/span> &lt;span class="n">num&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;span class="n">cin&lt;/span>&lt;span class="o">&amp;gt;&amp;gt;&lt;/span>&lt;span class="n">num&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;span class="n">cin&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ignore&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;span class="n">getline&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">cin&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">b&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;span class="n">string&lt;/span> &lt;span class="n">month&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 29 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 &amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">month&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">b&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">!=&lt;/span>&lt;span class="n">string&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">npos&lt;/span>&lt;span class="p">){&lt;/span>
-&lt;span class="n">cout&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="s">&amp;#34;Yes&amp;#34;&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="n">endl&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;span class="p">}&lt;/span>&lt;span class="k">else&lt;/span>&lt;span class="p">{&lt;/span>
-&lt;span class="n">cout&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="s">&amp;#34;No&amp;#34;&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="n">endl&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;span class="p">}&lt;/span>
-&lt;span class="p">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>CF899B</title><link>https://michael-ovo.github.io/p/cf899b/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/cf899b/</guid><description>&lt;img src="https://michael-ovo.github.io/cf899b.png" alt="Featured image of post CF899B" />&lt;h1 id="cf384a">CF384A&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Michael's blog</title><link>https://michael-ovo.github.io/</link><description>Recent content on Michael's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://michael-ovo.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>CF384A</title><link>https://michael-ovo.github.io/p/cf384a/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/cf384a/</guid><description>&lt;img src="https://michael-ovo.github.io/p/cf384a/cf384a.jpg" alt="Featured image of post CF384A" />&lt;h1 id="cf384a">CF384A&lt;/h1>
 &lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/CF384A" target="_blank" rel="noopener"
 >洛谷传送门&lt;/a>&lt;/p>
 &lt;p>&lt;a class="link" href="https://codeforces.com/problemset/problem/384/A" target="_blank" rel="noopener"
@@ -140,7 +103,44 @@ C.C.C
 &lt;span class="p">}&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>当然，还存在有更优的解，这里因为本人能力有限，就不进行列举了。&lt;/p>
 &lt;p>&lt;del>（数据这么小做别的题它不香吗，干嘛非要优化）&lt;/del>&lt;/p>
-&lt;p>码字不易，求点赞&lt;/p></description></item><item><title>Chemistry Midterm Notes</title><link>https://michael-ovo.github.io/p/notes/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/notes/</guid><description>&lt;img src="https://michael-ovo.github.io/p/notes/head.jpg" alt="Featured image of post Chemistry Midterm Notes" />&lt;h1 id="midterm-study-guide-2021-2022-school-year">Midterm Study Guide (2021-2022 School Year)&lt;/h1>
+&lt;p>码字不易，求点赞&lt;/p></description></item><item><title>CF899b</title><link>https://michael-ovo.github.io/p/cf899b/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/cf899b/</guid><description>&lt;img src="https://michael-ovo.github.io/p/cf899b/cf899b.jpg" alt="Featured image of post CF899b" />&lt;h1 id="cf899b-months-and-years">CF899B Months and Years&lt;/h1>
+&lt;p>&lt;a class="link" href="https://codeforces.com/problemset/problem/899/B" target="_blank" rel="noopener"
+>原题传送门&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.luogu.com.cn/problem/CF899B" target="_blank" rel="noopener"
+>洛谷传送门&lt;/a>&lt;/p>
+&lt;p>这可能是目前最暴力的一篇题解了。。&lt;/p>
+&lt;p>题目其实很简单，给出几个连续月份的天数，判断是否合法&lt;/p>
+&lt;p>&lt;del>好端端的一道模拟题就这么被打表暴力过了&lt;/del>&lt;/p>
+&lt;p>不过确实，与其说写一堆复杂的判断和模拟，打表所需的代码量少之又少。&lt;/p>
+&lt;h2 id="思路">思路&lt;/h2>
+&lt;p>首先自己创建好连续几年（需要包含平年和闰年的数据，因为题目中的月份数最多会达到 $24$）每个月天数的数据。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="s">&amp;#34;31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 29 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 &amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>随后，我们只需要原封不动的读入字符串，再用 &lt;code>find()&lt;/code> 函数直接判断是否为我们提前创建好的字符串中的一个子串即可。&lt;/p>
+&lt;p>其实题目第一行读入的整数并没啥用。&lt;/p>
+&lt;p>第二行直接全行读入字符串。&lt;/p>
+&lt;p>完全不需要做任何的处理，直接比对，返回输出。&lt;/p>
+&lt;p>唯一需要注意的是，使用 &lt;code>getline()&lt;/code> 的时候需要格外小心数据输入是否有存在回车的情况，需要加上 &lt;code>cin.ignore()&lt;/code>。&lt;/p>
+&lt;h2 id="前方高能极其暴力代码">前方高能，极其暴力代码&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cpp" data-lang="cpp">&lt;span class="cp">#include&lt;/span>&lt;span class="cpf">&amp;lt;bits/stdc++.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;span class="cp">&lt;/span>
+&lt;span class="k">using&lt;/span> &lt;span class="k">namespace&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">string&lt;/span> &lt;span class="n">b&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="p">{&lt;/span>
+&lt;span class="n">ios&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">sync_with_stdio&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="n">cin&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">tie&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="kt">int&lt;/span> &lt;span class="n">num&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">cin&lt;/span>&lt;span class="o">&amp;gt;&amp;gt;&lt;/span>&lt;span class="n">num&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="n">cin&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ignore&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;span class="n">getline&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">cin&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">b&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="n">string&lt;/span> &lt;span class="n">month&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 29 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 &amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">month&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">b&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">!=&lt;/span>&lt;span class="n">string&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="n">npos&lt;/span>&lt;span class="p">){&lt;/span>
+&lt;span class="n">cout&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="s">&amp;#34;Yes&amp;#34;&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="n">endl&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="p">}&lt;/span>&lt;span class="k">else&lt;/span>&lt;span class="p">{&lt;/span>
+&lt;span class="n">cout&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="s">&amp;#34;No&amp;#34;&lt;/span>&lt;span class="o">&amp;lt;&amp;lt;&lt;/span>&lt;span class="n">endl&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Chemistry Midterm Notes</title><link>https://michael-ovo.github.io/p/notes/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/notes/</guid><description>&lt;img src="https://michael-ovo.github.io/p/notes/head.jpg" alt="Featured image of post Chemistry Midterm Notes" />&lt;h1 id="midterm-study-guide-2021-2022-school-year">Midterm Study Guide (2021-2022 School Year)&lt;/h1>
 &lt;h2 id="what--is-chemistry">What is chemistry&lt;/h2>
 &lt;p>the study of the properties and behavior of matter&lt;/p>
 &lt;h2 id="what-is-matter">What is matter&lt;/h2>
