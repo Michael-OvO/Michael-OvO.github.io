@@ -10,8 +10,7 @@ tags = [
     "themes",
 ]
 categories = [
-    "themes",
-    "syntax",
+  "Test"
 ]
 series = ["Themes Guide"]
 aliases = ["migrate-from-jekyl"]

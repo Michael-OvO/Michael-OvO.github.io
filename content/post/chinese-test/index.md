@@ -6,7 +6,6 @@ slug: test-chinese
 image: helena-hertz-wWZzXlDpMog-unsplash.jpg
 categories:
     - Test
-    - 测试
 ---
 
 ## 正文测试
