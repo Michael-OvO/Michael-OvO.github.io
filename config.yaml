@@ -58,7 +58,7 @@ params:
     provider: disqus
 
     disqusjs:
-      shortname:
+      shortname: https-michael-ovo-github-io
       apiUrl:
       apiKey:
       admin:
