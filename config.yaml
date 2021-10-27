@@ -1,4 +1,4 @@
-baseurl: michael-ovo.github.io
+baseurl: https://michael-ovo.github.io/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
