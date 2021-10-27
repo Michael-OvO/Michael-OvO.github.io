@@ -64,9 +64,9 @@ There are two classfication under matter: mixture and substance.
 
 ## Homogenous Mixture vs. Heterogenous Mixture
 
-Homogenous: a mixture of two or more substances that are not soluble with each other, like sand and water
+Homogenous: one that is mixed/dissolved together, like saltwater
 
-Heterogenous: one that is mixed/dissolved together, like saltwater
+Heterogenous: a mixture of two or more substances that are not soluble with each other, like sand and water
 
 ## Three States of Matter
 
