@@ -1,9 +1,9 @@
 ---
-title: CF384A
-description: 大模拟
+title: CF899B
+description: 模拟
 date: 2021-10-27
-slug: CF384A
-image: cf384a.jpg
+slug: CF899B
+image: cf899b.png
 categories:
     - C++题解
 ---
