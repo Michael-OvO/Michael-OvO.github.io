@@ -127,8 +127,13 @@ Periods: the horizontal rows (across) the periodic table
 
 ### Specific names 
 Metals: located on the left side of the periodic table
+
 Non-Metals: located on the right side of the periodic table (plus hydrogen)
+
 Metalloids: located along the step formation on the right side of the periodic tableAlkali Metals: located along group one
+
 Alkaline Earth Metals: located along group two
+
 Halogens: located along group 17
+
 Noble Gases: located along group 18 (the most stable elements and the least likely to react in a reaction)
