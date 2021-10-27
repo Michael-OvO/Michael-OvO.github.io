@@ -1,17 +1,12 @@
-+++
-author = "Hugo Authors"
-title = "Rich Content"
-date = "2019-03-10"
-description = "A brief description of Hugo Shortcodes"
-categories = [
-"Test"
-]
-tags = [
-    "shortcodes",
-    "privacy",
-]
-image = "rich_content.png"
-+++
+---
+title: rich content
+description: 这是一个副标题
+date: 2021-10-27
+slug: Rich_Content
+image: rich_content.png
+categories:
+    - Test
+---
 
 Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes) for rich content, along with a [Privacy Config](https://gohugo.io/about/hugo-and-gdpr/) and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
 <!--more-->
