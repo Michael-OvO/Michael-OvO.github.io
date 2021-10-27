@@ -130,9 +130,11 @@ Metals: located on the left side of the periodic table
 
 Non-Metals: located on the right side of the periodic table (plus hydrogen)
 
-Metalloids: located along the step formation on the right side of the periodic tableAlkali Metals: located along group one
+Metalloids: located along the step formation on the right side of the periodic table
 
-Alkaline Earth Metals: located along group two
+Alkali Metals: located along group 1
+
+Alkaline Earth Metals: located along group 2
 
 Halogens: located along group 17
 
