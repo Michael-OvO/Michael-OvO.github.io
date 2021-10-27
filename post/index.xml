@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Michael's blog</title><link>https://michael-ovo.github.io/post/</link><description>Recent content in Posts on Michael's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://michael-ovo.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>CF384A</title><link>https://michael-ovo.github.io/p/cf384a/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/cf384a/</guid><description>CF384A 洛谷传送门
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Michael's blog</title><link>https://michael-ovo.github.io/post/</link><description>Recent content in Posts on Michael's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://michael-ovo.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>CF384A</title><link>https://michael-ovo.github.io/p/cf384a/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/cf384a/</guid><description>CF899B Months and Years 原题传送门
+洛谷传送门
+这可能是目前最暴力的一篇题解了。。
+题目其实很简单，给出几个连续月份的天数，判断是否合法
+好端端的一道模拟题就这么被打表暴力过了
+不过确实，与其说写一堆复杂的判断和模拟，打表所需的代码量少之又少。
+思路 首先自己创建好连续几年（需要包含平年和闰年的数据，因为题目中的月份数最多会达到 $24$）每个月天数的数据。
+&amp;#34;31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 29 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 31 28 31 30 31 30 31 31 30 31 30 31 &amp;#34; 随后，我们只需要原封不动的读入字符串，再用 find() 函数直接判断是否为我们提前创建好的字符串中的一个子串即可。</description></item><item><title>CF899B</title><link>https://michael-ovo.github.io/p/cf899b/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>https://michael-ovo.github.io/p/cf899b/</guid><description>CF384A 洛谷传送门
 原题传送门
 本菜鸡的第 $99$ 道橙题，心血来潮写一篇题解。
 题意 一种棋的规则是：在一个棋盘中，与该棋子相邻的上，下，左，右，$4$ 个格子中不能有棋子出现。
