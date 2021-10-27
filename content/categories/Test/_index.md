@@ -1,8 +1,8 @@
 ---
 title: "Test"
-description: "This is an example category"
+description: "本类型均为测试文档"
 slug: "test"
-image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
+image: "test.png"
 style:
     background: "#2a9d8f"
     color: "#fff"
