@@ -55,7 +55,7 @@ params:
 
   comments:
     enabled: true
-    provider: disqus
+    provider: waline
 
     disqusjs:
       shortname: https-michael-ovo-github-io
