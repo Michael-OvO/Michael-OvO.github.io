@@ -85,9 +85,13 @@ int a = 10;
 ```
 
 (A) a = 5 and b = -2
+
 (B) a = 6 and b = 7
+
 (C) a = 6 and b = 3
+
 (D) a = 12 and b = 1
+
 (E) a = 5 and b = 8
 
 简单推算即可，正确答案是E
@@ -108,10 +112,15 @@ for(int i = 0; i <= 3; i++)
 ```
 
 How many times will a ‘*’ be printed?
+
 (A) 3
+
 (B) 6
+
 (C) 9
+
 (D) 12
+
 (E) 15
 
 此题正解为 $3 \times 4=12$。
@@ -137,11 +146,17 @@ for (int k = 0; k < 20; k = k + 1)
 ```
 
 What is printed as a result of executing the code segment?
+
 (A) 1 3 5 7 9 11 13 15 17 19
+
 (B) 0 2 4 6 8 10 12 14 16 18
+
 (C) 2 4 6 8 10 12 14 16 18 20
+
 (D) 3 6 9 12 15 18
+
 (E) 0 2 4 6 8 10 13 14 16 18 20
+
 
 此题通过if判断的k值应该为0-19之间的所有奇数，但是应为输出时输出的是
 
@@ -162,10 +177,15 @@ Which of the following would be the correct result from the following expression
 ```
 
 (A) 130 (Decimal)
+
 (B) 133 (Decimal)
+
 (C) 151 (Decimal)
+
 (D) 132 (Decimal)
+
 (E) 136 (Decimal)
+
 
 此题依次转换为10进制即可
 
@@ -194,11 +214,17 @@ Consider the following code segment:
 ```
 
 What is the value of sum after the code is executed?
+
 (A) 1
+
 (B) 0
+
 (C) 13
+
 (D) 7
+
 (E) 4
+
 
 这个也是比较简单的题，直接trace即可
 
@@ -217,11 +243,17 @@ Consider the following code segment:
 ```
 
 What is the minimum number of times that * will be printed?
+
 (A) 0
+
 (B) 1
+
 (C) 2
+
 (D) n - 1
+
 (E) n - 2
+
 
 此题定义`i`的取值范围 `1<=i<=n` 所以取`i=1`的时候，循环不执行，故输出0，应选A。
 
@@ -339,10 +371,15 @@ if (x >= 1) x = x * 3;
 ```
 
 (A) x = 0;
+
 (B) if (x > 1) x = 0;
+
 (C) if (x > 3) x = 0;
+
 (D) if (x >=1) x = 0;
+
 (E) none of the above
+
 
 简单的不等式和代数转换之后可以得出，答案应为B
 
