@@ -87,7 +87,7 @@ params:
       serverURL: https://comment-blog-phi.vercel.app/
       lang: en-US
       visitor: true
-      avatar:
+      avatar: "wavatar"
       emoji:
         - https://cdn.jsdelivr.net/gh/walinejs/emojis/qq
       requiredMeta:
