@@ -1,14 +1,3 @@
-<head>
-<script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
-</head>
-<body>
-<div id="waline"></div>
-  <script>
-    Waline({
-      el: '#waline',
-      serverURL: 'https://comment-blog-phi.vercel.app/',
-      visiter: true,
-      dark: 'auto'
-    });
-  </script>
-</body>
+{{ if .Site.Params.comments.enabled }}
+    {{ partial (printf "comments/provider/%s" .Site.Params.comments.provider) . }}
+{{ end }}
